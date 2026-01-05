@@ -30,7 +30,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://github.com/Dimank-cyber/TUNNELING/tree/main/menu/menu.zip
+    wget https://github.com/Dimank-cyber/TUNNELING/main/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
