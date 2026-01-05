@@ -1,1 +1,4 @@
-```html wget https://sani01.serv00.net/script/install.sh && chmod +x install.sh && ./install.sh```
+```html
+apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
+```
+  
