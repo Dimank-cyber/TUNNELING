@@ -9,13 +9,13 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://sani01.serv00.net/script/bot/bot.zip
+wget https://github.com/Dimank-cyber/TUNNELING/tree/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://sani01.serv00.net/script/bot/kyt.zip
+wget https://github.com/Dimank-cyber/TUNNELING/tree/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
